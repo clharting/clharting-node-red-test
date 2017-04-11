@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: clharting-node-red-test
+  host: clharting-node-red-test
+  disk_quota: 1024M
+  services:
+  - clharting-node-red-test-cloudantNoSQLDB
+  - clharting-node-red-test-iotf-service
